@@ -5,7 +5,5 @@
 
 * CodeBook.md: it is a brief explanation of what run_analysis.R does
 
-### To read Step 5 tidy data .txt file
-    data <- read.table(file_path, header = TRUE) 
-    View(data)
+
 
