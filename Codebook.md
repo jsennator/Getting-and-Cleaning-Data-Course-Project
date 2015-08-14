@@ -1,6 +1,6 @@
 # CodeBook.md
 
-# run_analysis.R 
+### run_analysis.R 
 
 * downloads required data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 * unzips the file if it has not been uncompressed
@@ -19,7 +19,7 @@
 * loads activity_labels.txt
 * changes the data activity row to use the activity labels
 * saves the mean and std into mean_and_std.csv
-* saves the tidy dataset into tidy_dataset.csv
+* saves the tidy dataset into tidy.txt
 
 # mean_and_std.csv
 
@@ -108,7 +108,7 @@ variables:
 *  fBodyBodyGyroJerkMag.mean..	
 *  fBodyBodyGyroJerkMag.meanFreq..
 
-# tidy_dataset.csv.csv
+# tidy.txt
 contains 181 rows (including header) and 82 columns (including enumeration column) in a default csv format
 
 variables:
